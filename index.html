@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other file</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel = "stylesheet" href = "css/main.css">
+</head>
+<body>
+
+    <!--============== navbar ============-->
+    <nav class = "navbar navbar-expand-lg navbar-light py-4 fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                <img src="./images/logo (1).png" alt="">
+            </a>
+
+            <div class = "order-lg-2 nav-btns">
+                <button type = "button" class = "btn position-relative text-white">
+                    <i class="fa-brands fa-facebook"></i>
+                </button>
+                <button type = "button" class = "btn position-relative text-white ">
+                    <i class="fa-brands fa-instagram"></i>
+                </button>
+                <button type = "button" class = "btn position-relative text-white ">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+                <button type = "button" class = "btn text-white ">
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+               
+            </div>
+
+            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-white" href = "#header">Event Calendar</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link text-white" href = "#collection"> Membership </a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-white" href = "#special">Sponsorships  </a>
+                    </li>
+                    <div class="dropdown">
+                        <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About Us
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><button class="dropdown-item" type="button">Board of Supervisors</button></li>
+                          <li><button class="dropdown-item" type="button">Vinton’s History</button></li>
+                          <li><button class="dropdown-item" type="button">Chamber History</button></li>
+                        </ul>
+                      </div>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-white" href = "#about">Gallery</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2 border-0">
+                        <a class = "nav-link  text-white" href = "#popular"> Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--==================== end of navbar ==========================-->
+
+    <!--========================== header ==============================-->
+    <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
+        <div class = "container h-100 d-flex align-items-center carousel-inner">
+            <div class = "text-center carousel-item active">
+                <h1 class = " py-2 fw-bold text-white"><span>A Town in The</span> <br>Middle of Everything</h1>
+                <p class = "text-capitalize text-white"><span class="by-1">From block parties to</span> <br> <span class="by-2"> business building, explore</span> <br> <span class="by-3">everything that Vinton has</span> <br> <span class="by-4">to offer.</span></p>
+                <div class="main-button">
+                    <a href = "#" class = "btn mt-3 text-uppercase">View Calendar</a>
+                </div>
+            </div>
+            <div class = "text-center carousel-item">
+                <h1 class = " py-2 fw-bold text-white"><span>A Town in The</span> <br>Middle of Everything</h1>
+                <p class = "text-capitalize text-white"><span class="by-1">From block parties to</span> <br> <span class="by-2"> business building, explore</span> <br> <span class="by-3">everything that Vinton has</span> <br> <span class="by-4">to offer.</span></p>
+                <div class="main-button">
+                    <a href = "#" class = "btn mt-3 text-uppercase">View Calendar</a>
+                </div>
+            </div>
+        </div>
+
+        <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
+            <span class = "carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!--========================== end of header =======================-->
+    
+        <!-- about us -->
+        <section id = "about" class = "py-5">
+            <div class = "container">
+                <div class = "row gy-lg-5 align-items-center">
+                    <div class = "col-lg-6 text-center text-lg-start">
+                        <h1>Welcomaae to Vinton, Virginia</h1>
+                        <p>The <span>Vinton Area Chamber of Commerce</span> provides information and support to the area's ever-growing business community. Our goal is to strengthen the social and economic environments of our community. We provide services for surrounding areas consisting of Roanoke, Salem, Bedford, Botetourt, and Smith Mountain Lake.
+                        </p>
+                        <p>Explore this website to check out <span>chamber programs, events, member benefits,</span> the <span>business directory,</span> and consider <span>joining this outstanding business organization.</span> You'll also learn about our Board of Directors and our professional staff. We look forward to meeting you!</p>
+                    </div>
+                    <div class = "col-lg-6 order-lg-0">
+                        <img src = "images/Pok-E-Joe's photo _ 1 ribbon cutting.png" alt = "" class = "img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about us -->
+
+        <section>
+            <div class="my-section">
+                <div class="container">
+                    <div class = "title  text-center">
+                        <h1>How Can We Help You?</h1>
+                        <p class="text-white">Whether you’re a business seeking to increase exposure by taking advantage of our member benefits or simply looking <br> for area events hosted by Chamber members, we’re here to help you discover all that Vinton has to offer.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img src="./images/Mingle photo _ 1 Eric Wayne Band.png" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3>Event Calendar</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img src="./images/Chasity and Angie 2.png" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3>Event Calendar</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4">
+                            <div class="card">
+                                <div class="imgbox">
+                                    <img src="./images/Salon 121 photo _ 4 all the stylists.png" class="img-fluid">
+                                </div>
+                                <div class="content">
+                                    <h3>Event Calendar</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- card section-end -->
+
+        <!--your-section-->
+        <section id = "about" class = "py-5">
+            <div class = "container">
+                <div class = "row gy-lg-5 ">
+                    <div class = "col-lg-6 order-lg-1 my-heading-one text-lg-start">
+                       <div class="heading">
+                        <h1>Upcoming Events</h1>
+                       </div>
+                       <div class="one-heading">
+                           <div class="sub-heading">
+                                <h1> <span class="Jun-20">MAY</span><span class="under-line">Vinton Palooza,</span> <br> <span class="Jun-20 my-20">20</span> <span class="secend">Vinton War Memorial</span> </h1>
+                           </div>  
+                           <div class="sub-heading">
+                                <h1> <span class="Jun-20">JUN</span><span class="under-line">Annual Golf Tournament</span> <br> <span class="Jun-20 my-20">02</span> <span class="secend">Blue Hills Golf Club</span> </h1>
+                           </div>  
+                           <div class="sub-heading">
+                                <h1> <span class="Jun-20">JUN</span><span class="under-line">Mingle at the Market</span> <br> <span class="Jun-20 my-20">10</span> <span class="secend">Vinton Farmers’ Market</span> </h1>
+                           </div>  
+                           <div class="sub-heading">
+                                <h1> <span class="Jun-20">JUN</span><span class="under-line">Mingle at the Market</span> <br> <span class="Jun-20 my-20">24</span> <span class="secend">Vinton Farmers’ Market</span> </h1>
+                           </div>  
+                           <div class="sub-heading">
+                                <h1> <span class="Jun-20">JUL</span><span class="under-line">Mingle at the Market</span> <br> <span class="Jun-20 my-20">08</span> <span class="secend">Vinton Farmers’ Market</span> </h1>
+                           </div>  
+                           <div class="main-button">
+                                <a href = "#" class = "btn mt-3 text-uppercase">View Calendar</a>
+                            </div>
+                       </div>
+                       
+                    </div>
+                    <div class = "col-lg-6 main-img order-lg-0">
+                        <img src = "images/Events_row.png" alt = "" class = "img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--your-section-end-->
+
+        <!--card-new-start-->
+      <section>
+            <div class="third-section">
+                <div class="container">
+                    <div class="text-main text-center">
+                        <h1>Chamber Photo Gallery</h1>
+                        <p class="text-white">Browse our photo gallery and check out our signature events, festivals, and business <br> initiatives. You may even see some familiar faces!</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 ">
+                            <div class="image">
+                                <img src="./images/Chamber hosts photo _ 1 line dancing.png" class="img-fluid ami">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="image">
+                                <img src="./images/fall festival.png" class="img-fluid ami">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="image">
+                            <img src="./images/trick or treat 1.JPG" class="img-fluid ami">
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                           <div class="image">
+                            <img src="./images/Chamber hosts photo _ 1 line dancing.png" class="img-fluid ami">
+                           </div>
+                        </div>
+                    </div>
+                        <div class="main-button button-main text-center">
+                            <a href = "#" class = "btn mt-3 text-uppercase">View Calendar</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+       
+        <section id = "My-home" class = "py-5">
+            <div class = "container">
+                <div class = "row gy-lg-5 align-items-center">
+                    <div class = "col-lg-6 text-center text-lg-start">
+                        <h1>Become a Sponsor</h1>
+                        <p class="pt-4">Our sponsorship program offers businesses incredible benefits that help increase visibility and branding efforts while helping to fund various chamber programs throughout the year. If you’re interested in learning more about how to become involved in the community while simultaneously growing your business, then sponsorship with the Vinton Area Chamber of Commerce is a great place to start!
+                        </p>
+                        <div class="main-button pt-3">
+                            <a href = "#" class = "btn mt-3 my-btn text-uppercase">View Calendar</a>
+                        </div>
+                    </div>
+                    <div class = "col-lg-6 order-lg-0">
+                        <div class="img-my">
+                            <img src = "images/Vinton Chamber of Commerce photo _ 2 group board of directors.png" alt = "" class = "img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="logo-my">
+                    <img src="./images/logo (1).png" alt="">
+                </div>
+                <p>118 E. Lee Avenue, Vinton, VA 24179  |  540.343.1364</p>
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i></i></a></li>
+                    </ul>
+                <div class="footer-bottom">
+                    <p>©2023 Vinton Area Chamber of Commerce. Designed and Powered by NGD.</p>
+                </div>
+            </div>
+        </footer>
+
+
+    <!-- jquery -->
+    <script src = "js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
